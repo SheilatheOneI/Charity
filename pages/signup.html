@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <br>
+    <br>
+      <!-- partial:index.partial.html -->
+    <div class="logo text-center">
+      <h1>CHARITY</h1>
+    </div>
+    <div class="wrapper">
+      <div class="inner-warpper text-center">
+        <h2 class="title">You're one click away from making a difference</h2>
+        <form action="signup.php" id="formvalidate" method="post">
+          <div class="input-group">
+            <label class="palceholder" for="phone_number">Phone Number</label>
+            <input class="form-control" name="phone_number" id="phone_number" type="number"  placeholder="" />
+            <span class="lighting"></span>
+          </div>
+		  <div class="input-group">
+            <label class="palceholder" for="userName">User Name</label>
+            <input class="form-control" name="username" id="userName" type="text"  placeholder="" />
+            <span class="lighting"></span>
+          </div>
+          <div class="input-group">
+            <label class="palceholder" for="userPassword">Password</label>
+            <input class="form-control" name="password" id="password" type="password" placeholder="" />
+            <span class="lighting"></span>
+          </div>
+    
+          <button type="submit" id="login">Sign Up - it's Free!</button>
+          <div class="clearfix supporter">
+            <div class="pull-left remember-me">
+              <input id="remember-me" type="checkbox">
+              <label for="rememberMe">Accept</label>
+            </div>
+            <br>
+            <p>By Clicking "sign up" you agree to Charity's Terms and Conditions and Privacy policies</p>
+          </div>
+        </form>
+      </div>
+      <div class="signup-wrapper text-center">
+        <a href="get_started.html">Have an account already? <span class="text-primary">Sign In</span></a>
+
+      </div>
+    </div>
+    
+    <!-- you don't need that :)  -->
+    <div class="direction">
+      Type something in input and click submit to see the effect
+    </div>
+
+
+
+    <script src="signup.js"></script>
+</body>
+</html>
